@@ -1,4 +1,4 @@
-package factorymethod;
+package Teht1;
 
 public class Opettaja extends AterioivaOtus {
 
