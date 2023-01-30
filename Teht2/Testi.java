@@ -15,6 +15,8 @@ public class Testi {
         VaateTehdas Boss = new VaateTehdas("Hugo Boss");
 
         Janne.reFit(Boss);
+
+        System.out.println("\nVaatteiden vaihdon jälkeen:\n");
         
         System.out.println(Janne);
     }
