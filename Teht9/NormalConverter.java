@@ -8,7 +8,7 @@ public class NormalConverter implements ListStrategy {
     public String listToString(List list) {
         String returnMe = "";
         for (Object object : list) {
-            returnMe = object.toString() + "\n";
+            returnMe += object.toString() + "\n";
         }
         return returnMe;
     }
