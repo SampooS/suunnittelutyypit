@@ -7,11 +7,7 @@ public class Test {
         
         for (int i = 0; i<10; i++) {
             players[i] = new Player(GameMaster.joinGame());
-        }
-
-        for (Player player : players) {
-            player.start();
-            System.out.println("Player going!");
+            players[i].start();
         }
 
     }
