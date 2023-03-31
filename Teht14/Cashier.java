@@ -4,7 +4,6 @@ public class Cashier {
 
     Chef cheeseBurgerBuilder;
     Chef reindeerBuilder;
-    
 
     public Cashier(Chef chef, Chef reindeerbuilder) {
         this.cheeseBurgerBuilder = chef;
@@ -17,6 +16,7 @@ public class Cashier {
         cheeseBurgerBuilder.buildPatty();
         cheeseBurgerBuilder.buildBottomBun();
     }
+
     public void orderReindeerBurger() {
         reindeerBuilder.buildTopBun();
         reindeerBuilder.buildToppings();

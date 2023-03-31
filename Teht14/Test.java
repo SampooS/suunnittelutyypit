@@ -3,7 +3,6 @@ package Teht14;
 public class Test {
     public static void main(String[] args) {
         ReindeerMaster reindeerGuy = new ReindeerMaster();
-
         CheeseMaster cheeseGuy = new CheeseMaster();
 
         Cashier tiski = new Cashier(cheeseGuy, reindeerGuy);

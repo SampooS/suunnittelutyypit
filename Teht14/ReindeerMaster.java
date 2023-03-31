@@ -33,5 +33,4 @@ public class ReindeerMaster implements Chef {
         return this.reindeerBurger;
     }
 
-
 }

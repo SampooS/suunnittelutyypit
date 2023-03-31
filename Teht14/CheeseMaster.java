@@ -6,6 +6,7 @@ public class CheeseMaster implements Chef {
     public CheeseMaster() {
         this.cheeseBurger = new Cheeseburger();
     }
+
     @Override
     public void buildTopBun() {
         cheeseBurger.addItem(new Bun("Top bun"));
@@ -29,5 +30,5 @@ public class CheeseMaster implements Chef {
     public Burger getBurger() {
         return this.cheeseBurger;
     }
-    
+
 }
