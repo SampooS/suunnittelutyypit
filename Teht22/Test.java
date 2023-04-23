@@ -22,6 +22,8 @@ public class Test {
             } else if (input == 3) {
                 break;
             }
+            System.out.println("\n");
+            Visualization.visualize(curtain.height);
         }
     }
 }
